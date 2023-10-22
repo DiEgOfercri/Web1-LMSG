@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow" id="divprincipal">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoStaff.png" alt="logo" width="80"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h1 class="text-center bg-verde text-gris py-3">HTML5 & CSS3</h1>
+            </div>
+            <div id="parrafos">
+                <h1 class="text-center py-3 border-verde-b">ENLACES</h1>
+            </div>
+            <div class="px-3 border-gris-b">
+                <p>Los enlaces, links, hipervínculos, etc. se hacen con la etiqueta "a".</p>
+                <h1>Enlace a una página nuestra</h1>
+                <a href="index.html">HOME</a>
+                <p></p>
+                <h1>Enlace a Google</h1>
+                <a href="https://www.google.com">GOOGLE</a>
+                <p></p>
+                <h1>Enlace a Google en una pestaña nueva</h1>
+                <a href="https://www.google.com" target="_blank">GOOGLE 2</a>
+                <p></p>
+                <h1>Enlace a un JS</h1>
+                <a href="javascript:alert('Hola amigo')">PÚLSAME</a>
+                <p></p>
+                <h1>Enlace a un e-mail</h1>
+                <a href="mailto:alumno.501626@ies-azarquiel.es">MAIL</a>
+                <p></p>
+                <h1>Enlace a una imagen</h1>
+                <a href="https://www.instagram.com/staff19torneos/" target="_blank">
+                    <p class="text-center">
+                        <img src="img/instagram-icon.png" alt="Instagram" width="50"></img>
+                    </p>
+                </a>
+                <p></p>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-verde text-center text-gris py-3">&copy; diego_fercri</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

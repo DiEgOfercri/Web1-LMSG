@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow" id="divprincipal">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/logoStaff.png" alt="logo" width="80"></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h1 class="text-center bg-verde text-gris py-3">HTML5 & CSS3</h1>
+            </div>
+            <div>
+                <h1 class="text-center py-3 border-verde-b">TABLAS</h1>
+            </div>
+            <div class="px-3 border-gris-b">
+                <table class="py-5 text-center tablas">
+                    <caption>Tabla con encabezados en fila</caption>
+                    <tr>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+                <table class="py-5 text-center tablas">
+                    <caption>Tabla con encabezados en columna</caption>
+                    <tr>
+                        <th>Encabezado</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>Encabezado</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>Encabezado</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <th>Encabezado</th>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+                <table class="py-5 text-center tablas">
+                    <caption>Tabla con celdas combinadas</caption>
+                    <tr>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Celda</td>
+                        <td colspan="4">Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+                <table class="py-5 text-center tabla-par-impar par impar">
+                    <caption>Tabla con distintos estilos en filas pares e impares</caption>
+                    <tr>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                        <th>Encabezado</th>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table>
+                <table class="py-5 text-center tablahorario">
+                    <caption>Horario S1 DAM</caption>
+                    <tr>
+                        <th></th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <th>08:15<br>09:10</th>
+                        <td rowspan="2" class="lmsg">LMSG</td>
+                        <td class="ing">ING</td>
+                        <td rowspan="2" class="prog">PROG</td>
+                        <td rowspan="2" class="prog">PROG</td>
+                        <td rowspan="2" class="bdd">BDD</td>
+                    </tr>
+                    <tr>
+                        <th>09:10<br>10:05</th>
+                        <tD rowspan="2" class="bdd">BDD</td>
+                    </tr>
+                    <tr>
+                        <th>10:05<br>11:00</th>
+                        <td class="ing">ING</td>
+                        <td class="bdd">BDD</td>
+                        <td class="ende">ENDE</td>
+                        <td class="fol">FOL</td>
+                    </tr>
+                    <tr>
+                        <th>11:00<br>11:30</th>
+                        <th colspan="5">RECREO</th>
+                    </tr>
+                    <tr>
+                        <th>11:30<br>12:25</th>
+                        <td rowspan="2" class="prog">PROG</td>
+                        <td class="ende">ENDE</td>
+                        <td class="bdd">BDD</td>
+                        <td rowspan="2" class="sisi">SISI</td>
+                        <td rowspan="2" class="sisi">SISI</td>
+                    </tr>
+                    <tr>
+                        <th>12:25<br>13:20</th>
+                        <td rowspan="2" class="sisi">SISI</td>
+                        <td rowspan="2" class="lmsg">LMSG</td>
+                    </tr>
+                    <tr>
+                        <th>13:20<br>14:15</th>
+                        <td class="fol">FOL</td>
+                        <td class="fol">FOL</td>
+                        <td class="ende">ENDE</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <h1 class="bg-verde text-center text-gris py-3">&copy; diego_fercri</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>

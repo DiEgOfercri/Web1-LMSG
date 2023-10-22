@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(190, 255, 0);
+}
+
+#divprincipal {
+    background-color: rgb(49, 49, 49);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px rgba(94, 94, 94, 0.205);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    font-size: 20px;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(49, 49, 49);
+    }
+}
+
+nav li a {
+    color: rgb(190, 255, 0);
+    padding: 10px;
+    border-bottom: 3px solid rgb(77, 77, 77);
+}
+
+nav li a:hover {
+    color : rgb(190, 255, 0);
+    background-color:  rgb(77, 77, 77);
+    border-bottom: 3px solid rgb(190, 255, 0);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.py-5 {
+    padding: 5px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+
+
+.bg-verde {
+    background-color: rgb(190, 255, 0);
+}
+.text-gris {
+    color: rgb(60, 60, 60);
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+/* css de las prácticas */
+#home img {
+    width: 100%;
+}
+
+.bg-gris-claro {
+    background-color: rgb(77, 77, 77);
+    padding: 3px;
+}
+
+.border-verde-b {
+    border-bottom: 3px solid rgb(190, 255, 0);
+}
+.border-gris-b {
+    border-bottom: 3px solid rgb(49, 49, 49);
+}
+
+.listas ol {
+    list-style-type: upper-alpha;
+}
+.listas ol ol {    
+    list-style-type: lower-roman;
+}
+.listas ul {
+    list-style-image: url(../img/logoStaff-siquito.png);
+    margin: 2px;
+}
+.listas ul ul{
+    list-style-image: none;
+}
+dt {
+    font-size: 20px;
+    display: inline;
+    background-color: rgb(190, 255, 0);
+    color: rgb(60, 60, 60);
+    padding: 3px;
+    border-radius: 5px;
+}
+dd {
+    padding: 10px 0 20px 0;
+}
+
+.tablas {
+    width: 60%;
+    margin: 3px auto 0 auto;
+}
+.tablas th {
+    background-color: rgb(190, 255, 0);
+    color: rgb(49, 49, 49);
+}
+.tablas td {
+    background-color: rgb(60, 60, 60);
+    color: rgb(190, 255, 0);
+}
+.tabla-par-impar {
+    width: 60%;
+    margin: 3px auto 0 auto;
+}
+.par tr:nth-child(even) {
+    background-color: rgb(60, 60, 60);
+    color: rgb(190, 255, 0);
+}
+.impar tr:nth-child(odd) th {
+    background-color: rgb(190, 255, 0);
+    color: rgb(49, 49, 49);
+}
+.impar tr:nth-child(odd) td {
+    background-color: rgb(190, 255, 0);
+    color: rgb(49, 49, 49);
+}
+
+.tablahorario {
+    width: 60%;
+    margin: 0 auto;
+}
+.tablahorario td {
+    height: 20px;
+    color: rgb(49, 49, 49);
+}
+.tablahorario th {
+    height: 20px;
+    color: rgb(49, 49, 49);
+    background-color: #468182;
+    border-radius: 5px;
+}
+.lmsg {
+    background-color: #f3cac9;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.ing {
+    background-color: #80b4ed;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.fol {
+    background-color: #8181bd;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.prog {
+    background-color: #af7b79;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bdd {
+    background-color: #d3d2fc;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.ende {
+    background-color: #b3b36a;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sisi {
+    background-color: #aada99;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.button {
+    background-color: rgb(190, 255, 0);
+    color: rgb(49, 49, 49);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px;
+}
+.campo {
+    background-color: rgb(77, 77, 77);
+    color: rgb(190, 255, 0);
+    border-radius: 5px;
+    border-color: rgb(190, 255, 0);
+    border-width: 2px;
+    padding: 5px 10px;
+    margin: 2px 0 0 0;
+}
+select {
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    margin: 2px 0 0 0;
+}
+.file {
+    margin: 2px 0 0 0;
+}
+#login {
+    width: 90%;
+    margin: 0 auto;
+}
+#registro {
+    width: 90%;
+    margin: 0 auto;
+}
+#html5{
+    width: 90%;
+    margin: 0 auto;
+}
+fieldset {
+    border-radius: 5px;
+    border-color: rgb(190, 255, 0);
+}
+.html5 {
+    background-color: rgb(77, 77, 77);
+    color: rgb(190, 255, 0);
+    border-radius: 5px;
+    border-color: rgb(190, 255, 0);
+    border-width: 1px;
+    padding: 0 3px;
+    margin: 2px 0 0 0;
+}
+
+video {
+    border-left: 3px solid rgb(190, 255, 0);
+    border-right: 3px solid rgb(190, 255, 0);
+    width : 100%;
+    margin: 10px 0 5px 0;
+}
+iframe {
+    border-left: 3px solid rgb(190, 255, 0);
+    border-right: 3px solid rgb(190, 255, 0);
+    margin: 5px 0 5px 0;
+}
+audio {
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
