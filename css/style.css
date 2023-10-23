@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=NovaMono&display=swap');
+
 body {
     margin: 0;
     background-color: rgb(51, 51, 51);
+    font-family: NovaMono;
 }
 
 * {
@@ -109,12 +112,13 @@ body {
 .shadow {
     box-shadow: 0 0 20px rgba(94, 94, 94, 0.205);
 }
+
+
 nav ul{
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-
 nav li {
     display: inline;
     font-size: 20px;
